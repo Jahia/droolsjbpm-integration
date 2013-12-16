@@ -13,6 +13,7 @@
   <groupId>org.kie</groupId>
   <artifactId>kie-spring</artifactId>
   <packaging>bundle</packaging>
+  <version>6.0.0.Final-jahia</version>
 
   <name>Kie :: Spring</name>
   <description>Drools and jBPM integration for Spring.</description>

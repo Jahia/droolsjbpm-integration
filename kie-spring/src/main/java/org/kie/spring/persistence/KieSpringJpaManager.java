@@ -150,7 +150,7 @@ public class KieSpringJpaManager
     }
 
     public ProcessPersistenceContext getProcessPersistenceContext() {
-        return new JpaProcessPersistenceContext((EntityManager) this.env.get(EnvironmentName.CMD_SCOPED_ENTITY_MANAGER));
+        return new JpaProcessPersistenceContext((EntityManager) this.env.get(EnvironmentName.CMD_SCOPED_ENTITY_MANAGER), isJTA, false);
     }
 
 }
